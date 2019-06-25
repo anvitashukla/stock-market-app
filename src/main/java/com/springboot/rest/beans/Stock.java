@@ -12,6 +12,7 @@ public class Stock {
 	private Float adjClose;
 	private Integer volume;
 	
+	//For casting values from Yahoo Finance to POJO object
 	public Stock(LocalDate date, Float open, Float high, Float low, Float close, Float adjClose, Integer volume) {
         this.date = date;
         this.open = open;
